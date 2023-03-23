@@ -77,7 +77,7 @@ function animate() {
             textIndex++;
             
             if(textIndex === texts.length -1){
-                window.location = './index.html'
+                window.location = './menu.html'
             };
             
         }
