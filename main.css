@@ -90,7 +90,7 @@ button {
   }
   
   .right {
-    right: 45px;
+    right: -2px;
   }
   
   .left:hover polyline,
