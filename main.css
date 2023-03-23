@@ -1,0 +1,149 @@
+html, body{width: 100%; height: 100%;}
+
+body{
+    background-image: linear-gradient(rgb(9, 165, 163), rgb(255, 255, 255));
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+#onload_img{
+  position: absolute;
+  background-image: url('"https://github.com/viaasana/TAPTHE12D.github.io/blob/main/z4205651297726_51f21f01a0b8e6fbdd5ec2b2a331320b.jpg?raw=true"');
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  size: initial;
+  z-index: 10;
+}
+.background{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(9, 165, 163), rgb(255, 255, 255));
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 264px;
+    z-index: 10;
+    background-image: url('https://github.com/viaasana/TAPTHE12D.github.io/blob/main/z4205176510798_51422e61743d583b404b9295d4986265.jpg?raw=true');
+    background-size: cover;
+}
+
+header b{
+    font: 100 50px/1.3 'Oleo Script', Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+
+
+.menu{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 40%;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    height: max-content;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.menu::after{
+    position: relative;
+}
+figure{
+    position: absolute;
+    overflow: hidden;
+}
+.img_food{
+  width: 300px;
+  height: 300px;
+}
+
+
+
+/* nút đều hướng*/
+
+.bt{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    background-color: aliceblue;
+}
+button {
+    background: transparent;
+    border: 0;
+    outline:0;
+  }
+  
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+  }
+  
+  .arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -45px;
+    margin-left: -35px;
+    width: 70px;
+    height: 90px;
+  }
+  
+  .left {
+    left: 45px;
+  }
+  
+  .right {
+    right: -2px;
+  }
+  
+  .left:hover polyline,
+  .left:focus polyline {
+    stroke-width: 3;
+  }
+  
+  .left:active polyline {
+    stroke-width: 6;
+    transition: all 100ms ease-in-out;
+  }
+  
+  .right:hover polyline,
+  .right:focus polyline {
+    stroke-width: 3;
+  }
+  
+  .right:active polyline {
+    stroke-width: 6;
+    transition: all 100ms ease-in-out;
+  }
+  
+  polyline {
+    transition: all 250ms ease-in-out;
+  }
+
+  /*image disciption */
+  .image_discription{
+    color: blue;
+    font: "Bangers";
+    text-transform: uppercase;
+    font-size: 40px;
+  }
+
+  .image_discription p{
+    color:rgb(99, 103, 103);
+    font-size: 20px;
+  }
+
+
+
+  /**loDING PAGE*/
+  .background, section{
+    opacity: 0%;
+  }
